@@ -35,19 +35,19 @@ comment_log = {}
 def log_process(request, tag):
     print("here")
 
-def log_process(request, tag):
-    # tag=1 文字 返回与文字匹配的商品
-    # tag=2 数字 返回与该数字同类目的商品
-    if tag == 1:
-        if request in cate_its.keys():
-            return "&&".join(cate_its[request])
+# def log_process(request, tag):
+#     # tag=1 文字 返回与文字匹配的商品
+#     # tag=2 数字 返回与该数字同类目的商品
+#     if tag == 1:
+#         if request in cate_its.keys():
+#             return "&&".join(cate_its[request])
 
 
 class RTR():
     old = ["1", "2", "3", "4", "5"]
     new = ["5", "4", "3", "2", "1"]
     def p(self, key):
-        m = t2.get("9527#1")
+        m = r2.get("9527#1")
         if m != None:
             if int(m) > 5000:
                 return "more than 5000"
