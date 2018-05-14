@@ -1,0 +1,1 @@
+The directory stores document annotation information

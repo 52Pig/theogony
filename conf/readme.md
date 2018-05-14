@@ -1,0 +1,1 @@
+The directory stores configuration parameter information

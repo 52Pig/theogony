@@ -1,0 +1,1 @@
+The directory holds a smart recommendation platform
